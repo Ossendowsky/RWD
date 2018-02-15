@@ -1,0 +1,32 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Verdana', sans-serif;
+}
+
+@media screen and (max-width:1169px) and (min-width:992px) {
+    .main__header {
+        background-image: url(../img/man-2.jpg);
+        background-size: 100% 70%;
+        background-position: top;
+    }
+    .main__header--content {
+        font-size: 2em;
+        top: 15%;
+        left: 55%;
+    }
+}
+
+@media screen and (max-width:991px) {
+    .main__header {
+        background-size: 100% 50%;
+        background-position: top;
+    }
+    .main__header--content {
+        color: #000000;
+        text-align: center;
+        font-size: 2em;
+        top: 60%;
+        left: 0%;
+        right: 0%;
+    }
